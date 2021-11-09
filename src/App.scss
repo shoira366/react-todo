@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Amarante';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('./Assets/Fonts/amarante-v10-latin-regular.woff2') format('woff2'),
+    url('./Assets/Fonts/amarante-v10-latin-regular.woff') format('woff');
+}
+
+body {
+  font-family: Amarante;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  padding: 10px 8px;
+}
+
+.list:hover {
+  background-color: #ff9797;
+}
+
+.todo {
+  height: 80px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #009999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: red;
+}
